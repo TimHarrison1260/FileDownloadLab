@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDownloadLab", "FileDownloadLab\FileDownloadLab.csproj", "{ECFAB2B6-B5AB-4736-9B08-21807E1D4034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDownloadLab.Tests", "FileDownloadLab.Tests\FileDownloadLab.Tests.csproj", "{AEE295D2-06F6-4732-9889-EE71E0B29B18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECFAB2B6-B5AB-4736-9B08-21807E1D4034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECFAB2B6-B5AB-4736-9B08-21807E1D4034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECFAB2B6-B5AB-4736-9B08-21807E1D4034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECFAB2B6-B5AB-4736-9B08-21807E1D4034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE295D2-06F6-4732-9889-EE71E0B29B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE295D2-06F6-4732-9889-EE71E0B29B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE295D2-06F6-4732-9889-EE71E0B29B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE295D2-06F6-4732-9889-EE71E0B29B18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

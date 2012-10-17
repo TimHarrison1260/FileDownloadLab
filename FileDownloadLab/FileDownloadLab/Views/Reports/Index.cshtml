@@ -1,0 +1,36 @@
+﻿@model IEnumerable<FileDownloadLab.Models.FileData>
+
+@{
+    ViewBag.Title = "List of Reports available.";
+}
+
+<h2>List of available reports.</h2>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FileId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FileName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FilePath)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FileId)
+        </td>
+        <td>
+            @Html.ActionLink(item.FileName, "download", new { id = item.FileId })
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FilePath)
+        </td>
+    </tr>
+}
+
+</table>
